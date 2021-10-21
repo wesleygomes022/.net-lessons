@@ -15,7 +15,7 @@ namespace TestProj
 
         public Banco(double depositoInicial) 
         {
-            Saldo = depositoInicial;
+            deposito(depositoInicial);
         }
 
         public Banco(int conta, string titular, double depositoInicial) : this(depositoInicial)
