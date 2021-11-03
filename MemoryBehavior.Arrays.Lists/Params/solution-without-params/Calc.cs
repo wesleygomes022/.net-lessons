@@ -8,7 +8,7 @@ namespace TestProj
 {
     class Calc
     {
-        public static int Soma( int[] arr)
+        public static int Soma(int[] arr)
         {
             int res = 0;
             for(int i=0; i<arr.Length; i++)
