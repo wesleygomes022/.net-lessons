@@ -35,6 +35,10 @@ namespace TestProj
                 {
                     Console.WriteLine("\nCheck-out date must be after check-in date.");
                 }
+                else if(checkIn < DateTime.Now)
+                {
+                    Console.WriteLine("\nReservation dates for update must be future dates.");
+                }
                 else 
                 {
                     rv.UpdateDates(checkIn, checkOut);
