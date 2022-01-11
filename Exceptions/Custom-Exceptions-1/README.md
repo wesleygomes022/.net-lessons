@@ -1,1 +1,1 @@
-``PS: This is an example of a bad implementation of exceptions handling without using Custom Exceptions.``
+``PS: This is an example of a very bad implementation of exceptions handling without using Custom Exceptions.``
