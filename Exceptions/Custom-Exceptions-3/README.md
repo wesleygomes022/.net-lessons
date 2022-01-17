@@ -1,0 +1,1 @@
+``PS: This is an example of a great implementation of exceptions handling without using Custom Exceptions.``
