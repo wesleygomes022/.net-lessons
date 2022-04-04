@@ -1,0 +1,9 @@
+Tiago, 35000
+Pietro, 10000
+Mathias, 13000
+João, 2300
+Maria, 35000
+Osvaldo, 10000
+Charles, 43000
+Aristoteles, 17000
+Frederico, 13000
