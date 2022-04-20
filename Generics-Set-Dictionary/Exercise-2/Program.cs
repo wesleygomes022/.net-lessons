@@ -8,7 +8,7 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            HashSet<Aluno> hash = new HashSet<Aluno>();
+            HashSet<Student> hash = new HashSet<Student>();
 
             Console.Write("How many students for course A? ");
             int n = int.Parse(Console.ReadLine());
@@ -25,13 +25,13 @@ namespace TestProj
             Console.WriteLine("Total students: " + hash.Count);
         }
 
-        static void GetStudentData(int n, char curso, ref HashSet<Aluno> hash)
+        static void GetStudentData(int n, char curso, ref HashSet<Student> hash)
         {
             int ra;
             for (int i = 0; i < n; i++)
             {
                 ra = int.Parse(Console.ReadLine());
-                hash.Add(new Aluno { RA = ra, Curso = curso });
+                hash.Add(new Student { RA = ra, Course = curso });
             }
         }
     }

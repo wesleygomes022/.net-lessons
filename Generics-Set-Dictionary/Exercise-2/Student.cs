@@ -2,18 +2,18 @@
 
 namespace TestProj
 {
-    class Aluno
+    class Student
     {
         public int RA { get; set; }
-        public char Curso { get; set; }
+        public char Course { get; set; }
 
         public override bool Equals(object obj)
         {
-            if(!(obj is Aluno))
+            if(!(obj is Student))
             {
                 return false;
             }
-            Aluno temp = obj as Aluno;
+            Student temp = obj as Student;
             return RA.Equals(temp.RA);
         }
 
