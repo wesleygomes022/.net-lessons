@@ -12,7 +12,7 @@ namespace Studies
             list.Add(new Product("Radio", 487.99));
             list.Add(new Product("Iphone", 14000.78));
 
-            Comparison<Product> temp = Compare;
+            Comparison<Product> temp = (p1, p2) => p1.Price.CompareTo(p2.Price);
 
             list.Sort(temp);
 
@@ -20,11 +20,6 @@ namespace Studies
             {
                 Console.WriteLine(el);
             }
-        }
-
-        static int Compare(Product p1, Product p2)
-        {
-            return p1.Price.CompareTo(p2.Price);
         }
     }
 }
