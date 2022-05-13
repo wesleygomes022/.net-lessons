@@ -8,8 +8,8 @@ namespace Studies
     {
         static void Main(string[] args)
         {
-            //referencing more the one function with a delegate. 
-            //it calls Multicast Delegate
+            //referencing more than one function with a delegate. 
+            //it calls Multicast Delegate.
             Operation op = CalculationService.ShowMax;
             op += CalculationService.ShowSum;
 
